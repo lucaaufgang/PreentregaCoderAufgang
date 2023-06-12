@@ -1,0 +1,69 @@
+$fuentes: 'Bebas Neue', 'Konkhmer Sleokchher',sans-serif;
+.publicidad{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);  
+   }
+   @media only screen and (max-width:1000px){
+       .publicidad{
+           width: 90%;
+           margin: 5px auto;
+           display: grid;
+           grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+       }
+       .estilo{
+        display: inline-block;
+        border-style: solid;
+        border-color: black;
+        margin: 20px;
+    
+            &hover{
+                transform: translate(20px,10px);
+            }
+        }
+   }
+   @media  screen and (max-width:600px){
+       .publicidad{
+           width: 90%;
+           margin: 5px auto;
+           display: grid;
+           grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+       }
+       .estilo{
+        display: inline-block;
+        border-style: solid;
+        border-color: black;
+        margin: 20px;
+       }
+       
+   }
+   
+   .estilo{
+    display: inline-block;
+    border-style: solid;
+    border-color: black;
+    margin: 20px;
+
+        &hover{
+            transform: translate(30px,20px);
+        }
+        .imagenes{
+         box-sizing: border-box;
+         padding: 40px;
+         object-fit: cover;
+         width: 100%;
+         height: 450px;
+       
+            .letras{
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 30px;
+            font-family:$fuentes ;
+            font-size: 1.7em;
+            }
+        }
+    }
