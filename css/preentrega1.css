@@ -131,13 +131,14 @@ header {
   padding-right: 20%;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 3em; }
-  .container .row .parte1 .parrafo1 .imagen {
-    width: 60%;
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 40px;
-    padding-bottom: 40px; }
+  font-size: 2em; }
+
+.container .row .parte1 .imagen {
+  width: 60%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 40px;
+  padding-bottom: 40px; }
 
 .container .row .parte2 .imagen2 {
   width: 60%;
@@ -145,12 +146,13 @@ header {
   padding-right: 20%;
   padding-top: 80px;
   padding-bottom: 40px; }
-  .container .row .parte2 .imagen2 .parrafo2 {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-top: 80px;
-    padding-bottom: 40px;
-    font-size: 3em; }
+
+.container .row .parte2 .parrafo2 {
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  font-size: 2em; }
 
 footer {
   height: 70px;
