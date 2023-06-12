@@ -1,0 +1,135 @@
+@import "pages";
+@import "form";
+
+
+$colorfondo:lemonchiffon;
+$colorhed:rgb(20, 16, 20);
+$fuentes:'Bebas Neue', 'Konkhmer Sleokchher',sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+background-color: $colorfondo;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color:$colorhed;
+    justify-content: space-between;
+
+    .logo{
+    display: inline-block;
+    width: 200px;
+    height: 90px;
+    }
+
+        .navegador{
+        text-align: center;
+        background-color:rgb(20, 16, 20);
+
+             li{
+            display: inline-block;
+            font-size:  1.5em;
+            padding-left: 40px;
+            padding-right: 40px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            font-family: $fuentes;
+
+                a{
+                 color: #fff;
+                text-decoration:none;
+                }
+            }
+        }
+}
+.foto{
+    width: 100%;
+    height: 700px;
+    object-fit: cover;
+}
+.nikeTravis{
+    text-align: center;
+    font-size: 3.5em;
+    padding-bottom: 20px;
+    padding-top: 40px;
+    font-family: $fuentes;
+}
+.container{
+    .row{
+        .parte1{
+            .parrafo1{
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 40px;
+            padding-bottom: 40px;
+            font-size: 3em;
+
+                .imagen{
+                width: 60%;
+                padding-left: 20%;
+                padding-right: 20%;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                }
+            }
+        }
+        .parte2{
+
+            .imagen2{
+            width: 60%;
+            padding-left: 20%;
+            padding-right: 20%;
+            padding-top: 80px;
+            padding-bottom: 40px;
+
+                .parrafo2{
+                padding-left: 20%;
+                padding-right: 20%;
+                padding-top: 80px;
+                padding-bottom: 40px;
+                font-size: 3em;
+    
+                }
+            }
+        }
+    }
+}
+
+
+footer{
+    height: 70px;
+    padding: 20px;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: $colorhed;
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+    .piePagina{
+        align-items: center;
+        display: flex;
+        justify-content: flex-end;
+        gap: 1rem;
+        .fotoWsp{
+    width: 40px;
+        }
+
+            .fotoIg{
+    width: 40px;
+            }
+
+                .fotoFb{
+    width: 40px;
+                }
+
+                    .fotoTw{
+    width: 60px;
+                    }
+                 
+    }
+}
