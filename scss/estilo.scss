@@ -61,13 +61,16 @@ header{
 .container{
     .row{
         .parte1{
-            .parrafo1{
-            padding-left: 20%;
-            padding-right: 20%;
-            padding-top: 40px;
-            padding-bottom: 40px;
-            font-size: 2em;
-            display: flex;
+            .divisiontexto{
+                height:600px;
+                .parrafo1{
+                padding-left: 20%;
+                padding-right: 20%;
+                padding-top: 40px;
+                padding-bottom: 40px;
+                font-size: 2em;
+                
+                }
             }
 
                 .imagen{
@@ -76,8 +79,7 @@ header{
                 padding-right: 20%;
                 padding-top: 40px;
                 padding-bottom: 40px;
-                display: flex;
-                }
+                } 
         }
         .parte2{
 
@@ -87,7 +89,7 @@ header{
             padding-right: 20%;
             padding-top: 80px;
             padding-bottom: 40px;
-            display: flex;
+           
             }
 
                 .parrafo2{
@@ -96,7 +98,6 @@ header{
                 padding-top: 80px;
                 padding-bottom: 40px;
                 font-size: 2em;
-                display: flex;
                 }
             }
     }

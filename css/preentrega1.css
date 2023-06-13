@@ -125,37 +125,35 @@ header {
   padding-top: 40px;
   font-family: "Bebas Neue", "Konkhmer Sleokchher", sans-serif; }
 
-.container .row .parte1 .parrafo1 {
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 40px;
-  padding-bottom: 40px;
-  font-size: 2em;
-  display: flex; }
+.container .row .parte1 .divisiontexto {
+  height: 600px; }
+  .container .row .parte1 .divisiontexto .parrafo1 {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 2em; }
 
 .container .row .parte1 .imagen {
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 40px;
-  padding-bottom: 40px;
-  display: flex; }
+  padding-bottom: 40px; }
 
 .container .row .parte2 .imagen2 {
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 80px;
-  padding-bottom: 40px;
-  display: flex; }
+  padding-bottom: 40px; }
 
 .container .row .parte2 .parrafo2 {
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 80px;
   padding-bottom: 40px;
-  font-size: 2em;
-  display: flex; }
+  font-size: 2em; }
 
 footer {
   height: 70px;
