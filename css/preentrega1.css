@@ -54,7 +54,7 @@
 
 .formulario {
   width: 1000px;
-  height: 600px;
+  height: 1000px;
   border: solid;
   border-color: black;
   margin-left: 30%;
@@ -130,28 +130,32 @@ header {
   padding-right: 20%;
   padding-top: 40px;
   padding-bottom: 40px;
-  font-size: 2em; }
+  font-size: 2em;
+  display: flex; }
 
 .container .row .parte1 .imagen {
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  display: flex; }
 
 .container .row .parte2 .imagen2 {
   width: 60%;
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 80px;
-  padding-bottom: 40px; }
+  padding-bottom: 40px;
+  display: flex; }
 
 .container .row .parte2 .parrafo2 {
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 80px;
   padding-bottom: 40px;
-  font-size: 2em; }
+  font-size: 2em;
+  display: flex; }
 
 footer {
   height: 70px;
@@ -162,7 +166,8 @@ footer {
   background-color: #141014;
   color: #fff;
   font-size: 1.5em;
-  text-align: center; }
+  text-align: center;
+  margin: 0; }
   footer .piePagina {
     align-items: center;
     display: flex;
