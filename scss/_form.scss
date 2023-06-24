@@ -7,6 +7,7 @@
     margin-top: 75px;
     margin-bottom: 76px;
     padding: 30px;
+
         label{
         padding-top: 100px;
         padding-bottom: 10px;
@@ -34,3 +35,80 @@ width: 60px;
 height: 30px;
 margin-top: 20px; 
 }
+
+@media only screen and (max-width:1000px){
+    .formulario{
+        width: 800px;
+        height: 800px;
+        border: solid;
+        border-color: black;
+        margin-left: 30%;
+        margin-top: 75px;
+        margin-bottom: 76px;
+        padding: 20px;
+
+        label{
+            padding-top: 80px;
+            padding-bottom: 5px;
+            font-family: 'Bebas Neue', 'Konkhmer Sleokchher',sans-serif;
+            font-size: 1.7em;
+            }
+            .mail{
+                margin-left: 75px;
+            }
+    }
+    .mensaje{
+
+        .tituloMensaje{
+        display: block;
+        }
+    
+        .descripcionMensaje{
+        width:700px ;
+        height: 200px;
+        }
+    }
+    .boton{
+    width: 40px;
+    height: 20px;
+    margin-top: 15px; 
+    }
+}
+@media  screen and (max-width:600px){
+    .formulario{
+        width: 600px;
+        height: 450px;
+        border: solid;
+        border-color: black;
+        margin-left: 30%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        padding: 15px;
+
+        label{
+            padding-top: 60px;
+            padding-bottom: 3px;
+            font-family: 'Bebas Neue', 'Konkhmer Sleokchher',sans-serif;
+            font-size: 1.7em;
+            }
+            .mail{
+                margin-left: 50px;
+            }
+    }
+    .mensaje{
+
+        .tituloMensaje{
+        display: block;
+        }
+    
+        .descripcionMensaje{
+        width:500px ;
+        height: 150px;
+        }
+    }
+        .boton{
+        width: 20px;
+        height: 10px;
+        margin-top: 10px; 
+        }
+} 
